@@ -8,7 +8,7 @@
     'name': 'constant.numeric.spinasm'
     },
     {
-    'begin': '^;'
+    'begin': ';'
     'end': '$'
     'name': 'comment.line.double-dash.spinasm'
     },
@@ -63,6 +63,175 @@
     {
     'match': '^wrhx'
     'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^rda'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^rmpa'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wra'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wrap'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wlds'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wldr'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^jam'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^cho rda '
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^cho sof'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^cho rdal'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^clr'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^not'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^absa'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^ldax'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': 'equ'
+    'name': 'variable.parameter.spinasm'
+    },
+    {
+    'match': 'mem'
+    'name': 'variable.parameter.spinasm'
+    },
+    {
+    'match': 'sin0_rate'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'sin0_range'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'sin1_rate'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'sin1_range'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'rmp0_rate'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'rmp0_range'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'rmp1_rate'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'rmp1_range'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'pot0'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'pot1'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'pot2'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'adcl'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'adcr'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'dacl'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'dacr'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'addr_ptr'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'sin0'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'sin1'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'rmp0'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'rmp1'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'run'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'zrc'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'zro'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'gez'
+    'name': 'variable.language.spinasm'
+    },
+    {
+    'match': 'neg'
+    'name': 'variable.language.spinasm'
     }
-]
+    # to do:
+    # add registers 0-31 - should be possible with one regex
+    # make variables capture so the names highlight in code
+    # make sure cho flags are covered
+    # look into labels - unsure if there is a good way to handle them
 
+]
