@@ -1,0 +1,68 @@
+'scopeName': 'source.spinasm'
+'name': 'SpinAsm'
+'fileTypes': ['spn']
+
+'patterns': [
+    {
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+    'name': 'constant.numeric.spinasm'
+    },
+    {
+    'begin': '^;'
+    'end': '$'
+    'name': 'comment.line.double-dash.spinasm'
+    },
+    {
+    'match': '^sof'
+    'name': 'keyword.control.spinasm'
+    },
+    {
+    'match': '^and'
+    'name': 'keyword.control.spinasm'
+    },{
+    'match': '^or'
+    'name': 'keyword.control.spinasm'
+    },{
+    'match': '^xor'
+    'name': 'keyword.control.spinasm'
+    },{
+    'match': '^log'
+    'name': 'keyword.control.spinasm'
+    },{
+    'match': '^exp'
+    'name': 'keyword.control.spinasm'
+    },
+    {
+    'match': '^skp'
+    'name': 'keyword.control.spinasm'
+    },
+    {
+    'match': '^rdax'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wrax'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^maxx'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^mulx'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^rdfx'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wrlx'
+    'name': 'keyword.other.spinasm'
+    },
+    {
+    'match': '^wrhx'
+    'name': 'keyword.other.spinasm'
+    }
+]
+
